@@ -1,0 +1,11 @@
+/* import main scss */
+@import 'variables';
+@import 'globals';
+
+/* import scss of partials */
+@import 'partials/navbar';
+@import 'partials/responsive';
+
+/* import scss of pages */
+@import 'pages/home';
+@import 'pages/login';

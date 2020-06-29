@@ -1,0 +1,27 @@
+{
+	"ENV": "production",
+	"SITE_TITLE": "Complex",
+	"WEB_HOST": "localhost",
+	"SECRET_KEY": "...",
+	"SQL_HOST": "localhost",
+	"SQL_USER": "...",
+	"SQL_PASSWORD": "...",
+	"SQL_DB": "complex",
+	"DEFAULT_PAGENUM": 10,
+	"TIME_ZONE": "",
+	"ADMIN_PATH": "admin",
+	"THEME": {
+		"CSS": [
+			["bootstrap/css/bootstrap.min.css", "assets"],
+			["fontawesome-free-5.12.0/css/all.min.css", "fonts"],
+			["style.min.css", "css"]
+		],
+		"JS": [
+			["jquery/jquery-3.4.1.min.js", "assets"],
+			["popper/popper.min.js", "assets"],
+			["bootstrap/js/bootstrap.min.js", "assets"],
+			["app.min.js", "js"]
+		]
+	},
+	"DEFAULT_LANG": "en"
+}
